@@ -1,12 +1,13 @@
 {
   "name": "sandbox-app",
   "version": "1.0.0",
+  "homepage": "https://mikeoperfect.github.io/lolmgame/",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist -b gh-pages"
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // E2B-compatible Vite configuration
 export default defineConfig({
- base:'/lolmgame/',
+ base:'./',
   plugins: [react()],
   server: {
     host: '0.0.0.0',
